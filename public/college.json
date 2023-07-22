@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Awesome University",
+    "image": "https://images.unsplash.com/photo-1570385443797-7fed21c50f39?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+    "admissionDates": "Admission dates: July 1 - August 15",
+    "events": "Upcoming events: Sports meet, Science fair",
+    "researchHistory": "Research history: 100+ research papers published",
+    "sports": "Sports: Football, Basketball, Swimming"
+  },
+  {
+    "id": 2,
+    "name": "Innovative College",
+    "image": "https://images.unsplash.com/photo-1569447891824-7a1758aa73a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80",
+    "admissionDates": "Admission dates: June 15 - August 30",
+    "events": "Upcoming events: Annual fest, Cultural night",
+    "researchHistory": "Research history: 50+ patents filed",
+    "sports": "Sports: Cricket, Tennis, Volleyball"
+  },
+  {
+    "id": 3,
+    "name": "Creative Institute",
+    "image": "https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1186&q=80",
+    "admissionDates": "Admission dates: June 1 - July 31",
+    "events": "Upcoming events: Art exhibition, Music concert",
+    "researchHistory": "Research history: 20+ international collaborations",
+    "sports": "Sports: Badminton, Table Tennis, Athletics"
+  }
+]
