@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Advancements in Quantum Computing",
+    "authors": ["Author A", "Author B"],
+    "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+    "link": " https://www.mit.edu/",
+    "published_date": "2023-07-23",
+    "tags": ["Quantum Computing", "Technology"],
+    "university": "MIT "
+  },
+  {
+    "title": "Understanding Neural Networks",
+    "authors": ["Author C", "Author D"],
+    "abstract": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem...",
+    "link": "https://www.stanford.edu/",
+    "published_date": "2023-07-22",
+    "tags": ["Artificial Intelligence", "Machine Learning"],
+    "university": "Stanford University"
+  },
+  {
+    "title": "Exploring Genetic Engineering",
+    "authors": ["Author E", "Author F"],
+    "abstract": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit...",
+    "link": "https://www.harvard.edu/",
+    "published_date": "2023-07-21",
+    "tags": ["Genetics", "Biology"],
+    "university": "Harvard University"
+  },
+  {
+    "title": "The Impact of Climate Change on Ecosystems",
+    "authors": ["Author G", "Author H"],
+    "abstract": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis...",
+    "link": "https://www.caltech.edu/",
+    "published_date": "2023-07-20",
+    "tags": ["Environmental Science", "Climate Science"],
+    "university": "California Institute of Technology (Caltech)"
+  },
+  {
+    "title": "Analyzing Financial Market Trends",
+    "authors": ["Author I", "Author J"],
+    "abstract": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...",
+    "link": "https://www.ox.ac.uk/",
+    "published_date": "2023-07-19",
+    "tags": ["Finance", "Economics"],
+    "university": "University of Oxford"
+  },
+  {
+    "title": "Robotics and Automation in Industry",
+    "authors": ["Author K", "Author L"],
+    "abstract": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...",
+    "link": "https://www.cam.ac.uk/",
+    "published_date": "2023-07-18",
+    "tags": ["Robotics", "Automation"],
+    "university": "University of Cambridge"
+  },
+  {
+    "title": "Advances in Biomedical Imaging",
+    "authors": ["Author M", "Author N"],
+    "abstract": "Sunt in culpa qui officia deserunt mollit anim id est laborum...",
+    "link": "https://www.uchicago.edu/",
+    "published_date": "2023-07-17",
+    "tags": ["Biomedical Engineering", "Medical Imaging"],
+    "university": "University of Chicago"
+  },
+  {
+    "title": "The Future of Space Exploration",
+    "authors": ["Author O", "Author P"],
+    "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+    "link": "https://www.berkeley.edu/",
+    "published_date": "2023-07-16",
+    "tags": ["Space Science", "Astronomy"],
+    "university": "University of California, Berkeley   "
+  },
+  {
+    "title": "AI Ethics and Responsible AI Development",
+    "authors": ["Author Q", "Author R"],
+    "abstract": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem...",
+    "link": "https://www.imperial.ac.uk/",
+    "published_date": "2023-07-15",
+    "tags": ["Artificial Intelligence", "Ethics"],
+    "university": "Imperial College London   "
+  },
+  {
+    "title": "Emerging Trends in Renewable Energy",
+    "authors": ["Author S", "Author T"],
+    "abstract": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit...",
+    "link": "https://ethz.ch/",
+    "published_date": "2023-07-14",
+    "tags": ["Renewable Energy", "Sustainability"],
+    "university": "Swiss Federal Institute of Technology Zurich (ETH Zurich)"
+  }
+]

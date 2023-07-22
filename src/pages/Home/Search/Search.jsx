@@ -5,7 +5,7 @@ function Search() {
     <div >
 
    
-    <div className='flex justify-center bg-search-image items-center h-[700px] bg-center bg-cover bg-opacity-70'>
+    <div className='flex justify-center bg-search-image items-center h-[700px] bg-center bg-cover bg-opacity-60'>
       <div className="form-control">
   <div className="input-group">
     <input type="text" placeholder="Search…" className="input lg:w-[800px] w-96 md:w-[700px] input-bordered" />
