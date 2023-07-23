@@ -1,17 +1,18 @@
 import React, { useContext } from 'react'
 import { Link, NavLink } from 'react-router-dom'
+import { AuthContext } from '../../provider/AuthProvider';
 // import { AuthContext } from '../provider/AuthProvider';
 // import { AiOutlineShoppingCart } from "react-icons/ai" 
  
 function Navbar() {
-  // const { user, logOut } = useContext(AuthContext);
+  const { user, logOut } = useContext(AuthContext);
  
 
-//   const handleLogOut = () => {
-//     logOut()
-//         .then(() => { })
-//         .catch(error => console.log(error));
-// }
+  const handleLogOut = () => {
+    logOut()
+        .then(() => { })
+        .catch(error => console.log(error));
+}
 const navMenu = <>
        <li>  
             <NavLink
@@ -64,22 +65,19 @@ const navMenu = <>
     </div>
     <div className="navbar-end  ">
   
-      {/* {
+      {
             user ? <>
-            <Link to="/dashboard"><h1>Dashboard</h1></Link>
-           
+            <p className='ml-2'><Link to="/mycollege"><h1>My College</h1></Link></p>
+            <p className='ml-4 mr-2'> <Link to="/userName"><h1>{user.displayName}</h1></Link></p>
                 <button onClick={handleLogOut} className="btn bg-[#5BD9B3] text-white hover:bg-[#55e2b8]">LogOut</button>
-            <div className="w-10 rounded-full">
-                  <img width={100} height={100} src={user?.photoURL}/>
-                   
-            </div>
-             
+            
+                
 
             </> : <>
             <Link to='/login' className="btn bg-[#5BD9B3] text-white hover:bg-[#55e2b8]">Login</Link>
             </>
-        } */}
-        <Link to='/login' className="btn bg-[#5BD9B3] text-white hover:bg-[#55e2b8]">Login</Link>
+        }
+        {/* <Link to='/login' className="btn bg-[#5BD9B3] text-white hover:bg-[#55e2b8]">Login</Link> */}
   
     </div>
     

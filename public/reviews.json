@@ -1,0 +1,39 @@
+[
+  {
+    "name": "University of ABC",
+    "location": "City XYZ",
+    "reviews": [
+      {
+        "user": "JohnDoe87",
+        "rating": 4.5,
+        "comment": "I had an amazing experience at University of ABC. The professors were knowledgeable, and the campus was beautiful. The only downside was the limited parking space."
+      },
+      {
+        "user": "JaneSmith22",
+        "rating": 5.0,
+        "comment": "I couldn't be happier with my choice of University of ABC. The staff was supportive, and the course curriculum was excellent. I would highly recommend it to anyone."
+      },
+      {
+        "user": "David123",
+        "rating": 3.0,
+        "comment": "University of ABC has some good programs, but the facilities need improvement. The library hours were inconvenient, and the campus could use more green spaces."
+      }
+    ]
+  },
+  {
+    "name": "XYZ College",
+    "location": "Town PQR",
+    "reviews": [
+      {
+        "user": "AmyStudent",
+        "rating": 4.0,
+        "comment": "Overall, I had a positive experience at XYZ College. The professors were approachable, and the extracurricular activities were fun. However, the cafeteria food could be better."
+      },
+      {
+        "user": "MarkGrad",
+        "rating": 3.5,
+        "comment": "XYZ College has a lot of potential, but the class sizes were too large for my liking. It was challenging to get personalized attention from the instructors."
+      }
+    ]
+  }
+]

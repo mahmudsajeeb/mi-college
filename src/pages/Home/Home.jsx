@@ -13,6 +13,7 @@ function Home() {
       <CollegeCard />
       <CollegeGallery />
        <ResearchPapers />
+       {/* <CollegeReviewSection /> */}
       </div>
     </div>
   )
