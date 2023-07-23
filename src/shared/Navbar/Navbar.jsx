@@ -39,6 +39,16 @@ const navMenu = <>
               College
             </NavLink>
             </li>
+            <li  className='ml-4'>
+            <NavLink
+              to='/admission'
+              aria-label='admission'
+              title='admission'
+              className={({ isActive }) => (isActive ? 'text-[#5BD9B3]' : 'default')}
+            >
+              Admission
+            </NavLink>
+            </li>
          
            
 </>

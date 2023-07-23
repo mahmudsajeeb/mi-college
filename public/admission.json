@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Massachusetts Institute of Technology (MIT)",
+    "country": "United States"
+  },
+  {
+    "name": "Stanford University",
+    "country": "United States"
+  },
+  {
+    "name": "Harvard University",
+    "country": "United States"
+  },
+  {
+    "name": "California Institute of Technology (Caltech)",
+    "country": "United States"
+  },
+  {
+    "name": "University of Oxford",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "University of Cambridge",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "University of Chicago",
+    "country": "United States"
+  },
+  {
+    "name": "Imperial College London",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Swiss Federal Institute of Technology (ETH Zurich)",
+    "country": "Switzerland"
+  },
+  {
+    "name": "University College London (UCL)",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "National University of Singapore (NUS)",
+    "country": "Singapore"
+  },
+  {
+    "name": "University of California, Berkeley (UCB)",
+    "country": "United States"
+  },
+  {
+    "name": "Princeton University",
+    "country": "United States"
+  },
+  {
+    "name": "Yale University",
+    "country": "United States"
+  },
+  {
+    "name": "University of Pennsylvania",
+    "country": "United States"
+  },
+  {
+    "name": "University of Tokyo",
+    "country": "Japan"
+  },
+  {
+    "name": "University of Michigan",
+    "country": "United States"
+  },
+  {
+    "name": "Columbia University",
+    "country": "United States"
+  },
+  {
+    "name": "Johns Hopkins University",
+    "country": "United States"
+  },
+  {
+    "name": "University of Toronto",
+    "country": "Canada"
+  }
+]

@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import SingleCollegeCard from '../Home/CollegeCard/SingleCollegeCard/SingleCollegeCard';
+import SingleElement from './SingleElement';
+ 
  
 
 function College() {
   const [colleges, setColleges] = useState([]);
 
   useEffect(() => {
-    fetch('college.json')
+    fetch('http://localhost:1000/college')
       .then((res) => res.json())
       .then((data) => setColleges(data));
   }, []);
@@ -18,8 +19,8 @@ function College() {
     <div className="grid lg:grid-cols-3 gap-4 md:grid-cols-2 cols-grid-1">
 
       {colleges.map((college) => (
-        <SingleCollegeCard college={college} key={college.id} />
          
+         <SingleElement college={college} key={college.id}/>
       ))}
     </div>
     </>

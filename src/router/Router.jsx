@@ -9,6 +9,7 @@ import Login from "../shared/Login/Login";
 import SignIn from "../shared/SignIn/SignIn";
 import MyColleges from "../pages/MyColleges/MyColleges";
 import College from "../pages/College/College";
+import Admission from "../pages/Admissions/Admission";
  
  
  
@@ -27,6 +28,10 @@ export const router = createBrowserRouter([
       {
         path:"College",
         element: <College />
+      },
+      {
+        path:"admission",
+        element: <Admission />
       },
       {
         path:"mycollege",

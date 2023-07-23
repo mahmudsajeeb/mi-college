@@ -5,7 +5,7 @@ function CollegeCard() {
   const [colleges, setColleges] = useState([]);
 
   useEffect(() => {
-    fetch('college.json')
+    fetch('http://localhost:1000/college')
       .then((res) => res.json())
       .then((data) => setColleges(data.slice(0,3)));
   }, []);

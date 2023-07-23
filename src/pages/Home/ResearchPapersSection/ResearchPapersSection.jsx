@@ -5,7 +5,7 @@ const ResearchPapers = () => {
 
   useEffect(() => {
     // Fetch the JSON data from the file
-    fetch('../../../../public/researchpapers.json')
+    fetch('http://localhost:1000/research')
       .then((response) => response.json())
       .then((data) => setResearchPapers(data))
       .catch((error) => console.error('Error fetching data:', error));
