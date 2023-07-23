@@ -1,3 +1,34 @@
+// import React from 'react';
+
+// function SingleCollegeCard({ college }) {
+//   const { image, name, admissionDates, events, researchHistory, sports } = college;
+
+//   return (
+//     <div>
+    
+//       <div className="max-w-md   p-6 mx-auto hover:cursor-pointer bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:-translate-y-1 hover:shadow-lg">
+//         <img src={image} alt={name} className="h-48 w-full object-cover" />
+//         <div className="p-4">
+//           <h2 className="text-xl font-semibold text-gray-800">{name}</h2>
+//           <p className="text-gray-600">{admissionDates}</p>
+//           <p className="text-gray-600">{events}</p>
+//           <p className="text-gray-600">{researchHistory}</p>
+//           <p className="text-gray-600">{sports}</p>
+//         </div>
+        
+//         <div className='text-right'>
+//         <button className="btn btn-outline btn-success">Details
+        
+//         </button>
+//         </div>
+//       </div>
+      
+//     </div>
+//   );
+// }
+
+// export default SingleCollegeCard;
+
 import React from 'react';
 
 function SingleCollegeCard({ college }) {
@@ -5,8 +36,7 @@ function SingleCollegeCard({ college }) {
 
   return (
     <div>
-    
-      <div className="max-w-md   p-6 mx-auto hover:cursor-pointer bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:-translate-y-1 hover:shadow-lg">
+      <div className="max-w-md p-6 mx-auto hover:cursor-pointer bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:-translate-y-1 hover:shadow-lg">
         <img src={image} alt={name} className="h-48 w-full object-cover" />
         <div className="p-4">
           <h2 className="text-xl font-semibold text-gray-800">{name}</h2>
@@ -15,16 +45,13 @@ function SingleCollegeCard({ college }) {
           <p className="text-gray-600">{researchHistory}</p>
           <p className="text-gray-600">{sports}</p>
         </div>
-        
         <div className='text-right'>
-        <button className="btn btn-outline btn-success">Details
-        
-        </button>
+          <button className="btn btn-outline btn-success">Details</button>
         </div>
       </div>
-      
     </div>
   );
 }
 
 export default SingleCollegeCard;
+

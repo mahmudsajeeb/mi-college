@@ -1,16 +1,29 @@
 [
   {
     "id": 1,
-    "name": "Awesome University",
+    "name": "Massachusetts Institute of Technology (MIT) -",
     "image": "https://images.unsplash.com/photo-1570385443797-7fed21c50f39?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
     "admissionDates": "Admission dates: July 1 - August 15",
     "events": "Upcoming events: Sports meet, Science fair",
     "researchHistory": "Research history: 100+ research papers published",
-    "sports": "Sports: Football, Basketball, Swimming"
+    "details": {
+      "events": [
+        "Annual Science Fair",
+        "Cultural Fest",
+        "Entrepreneurship Summit"
+      ]
+    },
+    "college_rating": 4.7,
+    "sports_facilities": [
+      "Indoor Stadium",
+      "Outdoor Sports Grounds",
+      "Swimming Pool"
+    ]
   },
+
   {
     "id": 2,
-    "name": "Innovative College",
+    "name": "Stanford University",
     "image": "https://images.unsplash.com/photo-1569447891824-7a1758aa73a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80",
     "admissionDates": "Admission dates: June 15 - August 30",
     "events": "Upcoming events: Annual fest, Cultural night",
@@ -19,11 +32,211 @@
   },
   {
     "id": 3,
-    "name": "Creative Institute",
-    "image": "https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1186&q=80",
+    "name": "Harvard University",
+    "image": "https://images.pexels.com/photos/6146978/pexels-photo-6146978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "admissionDates": "Admission dates: June 1 - July 31",
     "events": "Upcoming events: Art exhibition, Music concert",
     "researchHistory": "Research history: 20+ international collaborations",
     "sports": "Sports: Badminton, Table Tennis, Athletics"
+  },
+  {
+    "image": "https://images.pexels.com/photos/14768533/pexels-photo-14768533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "California Institute of Technology (Caltech)",
+    "college_rating": 4.0,
+    "admission_date": "2023-09-15",
+    "research_count": 30,
+    "details": {
+      "events": [
+        "Art Exhibition",
+        "Music Fest",
+        "Drama Club"
+      ],
+      "sports_facilities": [
+        "Artificial Climbing Wall",
+        "Dance Studios",
+        "Table Tennis Hall"
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "name": "University of Oxford ",
+    "image": "https://images.unsplash.com/photo-1617297296495-4af2290c2b84?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1167&q=80",
+    "admissionDates": "Admission dates: July 1 - August 15",
+    "events": "Upcoming events: Sports meet, Science fair",
+    "researchHistory": "Research history: 100+ research papers published",
+    "details": {
+      "events": [
+        "Annual Science Fair",
+        "Cultural Fest",
+        "Entrepreneurship Summit"
+      ]
+    },
+    "college_rating": 4.7,
+    "sports_facilities": [
+      "Indoor Stadium",
+      "Outdoor Sports Grounds",
+      "Swimming Pool"
+    ]
+  },
+
+  {
+    "id": 23,
+    "name": "University of Cambridge ",
+    "image": "https://images.unsplash.com/photo-1652955686621-e62b602c099e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    "admissionDates": "Admission dates: August 1 - September 15",
+    "events": "Upcoming events: Tech Symposium, Coding Contest",
+    "researchHistory": "Research history: 80+ research papers published",
+    "details": {
+      "events": [
+        "Tech Symposium",
+        "Coding Contest",
+        "Robotics Expo"
+      ]
+    },
+    "college_rating": 4.5,
+    "sports_facilities": [
+      "Gymnasium",
+      "Football Field",
+      "Tennis Courts"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "University of Chicago",
+    "image": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    "admissionDates": "Admission dates: July 15 - August 30",
+    "events": "Upcoming events: Art Exhibition, Drama Club",
+    "researchHistory": "Research history: 50+ research papers published",
+    "details": {
+      "events": [
+        "Art Exhibition",
+        "Drama Club",
+        "Literary Week"
+      ]
+    },
+    "college_rating": 4.2,
+    "sports_facilities": [
+      "Artificial Climbing Wall",
+      "Dance Studios",
+      "Table Tennis Hall"
+    ]
+  },
+
+  {
+    "id": 32,
+    "name": "Imperial College London",
+    "image": "https://images.unsplash.com/photo-1448906654166-444d494666b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    "admissionDates": "Admission dates: July 30 - September 10",
+    "events": "Upcoming events: International Business Conference, Leadership Seminar",
+    "researchHistory": "Research history: 150+ research papers published",
+    "details": {
+      "events": [
+        "International Business Conference",
+        "Leadership Seminar",
+        "Networking Expo"
+      ]
+    },
+    "college_rating": 4.8,
+    "sports_facilities": [
+      "Cricket Ground",
+      "Badminton Courts",
+      "Squash Courts"
+    ]
+  },
+
+  {
+    "id": 532,
+    "name": "Swiss Federal Institute of Technology (ETH Zurich)",
+    "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    "admissionDates": "Admission dates: August 10 - September 25",
+    "events": "Upcoming events: Medical Symposium, Healthcare Summit",
+    "researchHistory": "Research history: 200+ research papers published",
+    "details": {
+      "events": [
+        "Medical Symposium",
+        "Healthcare Summit",
+        "Research Presentations"
+      ]
+    },
+    "college_rating": 4.9,
+    "sports_facilities": [
+      "Medical Fitness Center",
+      "Tennis Courts",
+      "Swimming Pool"
+    ]
+  },
+
+  {
+    "id": 16,
+    "name": "University College London (UCL)",
+    "image": "https://images.pexels.com/photos/207684/pexels-photo-207684.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "admissionDates": "Admission dates: July 20 - August 31",
+    "events": "Upcoming events: Tech Fest, Hackathon",
+    "researchHistory": "Research history: 90+ research papers published",
+    "details": {
+      "events": [
+        "Tech Fest",
+        "Hackathon",
+        "Tech Symposium"
+      ]
+    },
+    "college_rating": 4.6,
+    "sports_facilities": [
+      "Basketball Court",
+      "Volleyball Court",
+      "Athletics Track"
+    ]
+  },
+  {
+    "id": 73,
+    "name": "National University of Singapore (NUS) ",
+    "image": "https://images.pexels.com/photos/17113078/pexels-photo-17113078/free-photo-of-patio-of-double-minaret-madras-in-erzurum.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "admissionDates": "Admission dates: August 5 - September 20",
+    "events": "Upcoming events: Science Expo, Chemistry Symposium",
+    "researchHistory": "Research history: 70+ research papers published",
+    "details": {
+      "events": [
+        "Science Expo",
+        "Chemistry Symposium",
+        "Mathematics Conference"
+      ]
+    },
+    "college_rating": 4.4,
+    "sports_facilities": [
+      "Gymnasium",
+      "Swimming Pool",
+      "Table Tennis Hall"
+    ]
+  },
+  {
+    "id": 82,
+    "name": "University of California, Berkeley (UCB)",
+    "image": "https://images.pexels.com/photos/5940841/pexels-photo-5940841.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "admissionDates": "Admission dates: July 25 - September 5",
+    "events": "Upcoming events: Art Exhibition, Drama Club",
+    "researchHistory": "Research history: 40+ research papers published",
+    "details": {
+      "events": [
+        "Art Exhibition",
+        "Drama Club",
+        "Film Festival"
+      ]
+    },
+    "college_rating": 4.3,
+    "sports_facilities": [
+      "Artificial Climbing Wall",
+      "Dance Studios",
+      "Theater Room"
+    ]
   }
+  
+  
+  
+  
+  
+  
+  
+  
+  
 ]

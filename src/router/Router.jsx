@@ -8,6 +8,7 @@ import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import Login from "../shared/Login/Login";
 import SignIn from "../shared/SignIn/SignIn";
 import MyColleges from "../pages/MyColleges/MyColleges";
+import College from "../pages/College/College";
  
  
  
@@ -25,7 +26,7 @@ export const router = createBrowserRouter([
       },
       {
         path:"College",
-        element: <h1>College</h1>
+        element: <College />
       },
       {
         path:"mycollege",

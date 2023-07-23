@@ -7,7 +7,7 @@ function CollegeCard() {
   useEffect(() => {
     fetch('college.json')
       .then((res) => res.json())
-      .then((data) => setColleges(data));
+      .then((data) => setColleges(data.slice(0,3)));
   }, []);
 
   return (
