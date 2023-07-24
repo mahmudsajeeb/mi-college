@@ -5,6 +5,7 @@ import { useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router-dom";
 import Swal from 'sweetalert2'
 import { AuthContext } from "../../provider/AuthProvider";
+import SocialLogin from "./SocialLogin";
  
  
 const SignIn = () => {
@@ -22,7 +23,7 @@ const SignIn = () => {
         updateUserProfile(data.name, data.photoURL)
          .then(()=>{
           const saveUser = {name: data.name,email:data.email}
-          fetch('https://school-server-two.vercel.app/users',{
+          fetch('http://localhost:1000/users',{
             method:"POST",
             headers:{
               'content-type':'application/json'
@@ -142,6 +143,7 @@ const SignIn = () => {
  
 
     <p>Already<Link className='ml-3 underline hover:bg-text-500' to="/login"> Login</Link></p>
+    <SocialLogin />
     </div>
   );
 };

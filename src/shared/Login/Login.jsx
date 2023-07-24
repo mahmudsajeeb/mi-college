@@ -5,6 +5,7 @@ import { useContext, useEffect, useState } from 'react';
 
 import Swal from 'sweetalert2'
 import { AuthContext } from '../../provider/AuthProvider';
+import SocialLogin from '../SignIn/SocialLogin';
  
 const Login = () => {
   const [disabled, setDisabled] = useState(true);
@@ -92,6 +93,7 @@ const Login = () => {
       <p>Create an Account<Link className='ml-3 underline hover:bg-text-500' to="/signin"> Sign</Link></p>
     </form>
    
+   <SocialLogin />
     </div>
   );
 };

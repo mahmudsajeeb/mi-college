@@ -3,6 +3,7 @@ import Search from './Search/Search'
 import CollegeCard from './CollegeCard/CollegeCard'
 import CollegeGallery from './CollegeGallery/CollegeGallery'
 import ResearchPapers from './ResearchPapersSection/ResearchPapersSection'
+import Reviews from './Reviews/Reviews'
  
 
 function Home() {
@@ -14,6 +15,7 @@ function Home() {
       <CollegeGallery />
        <ResearchPapers />
        {/* <CollegeReviewSection /> */}
+       <Reviews />
       </div>
     </div>
   )

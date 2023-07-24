@@ -10,6 +10,7 @@ import SignIn from "../shared/SignIn/SignIn";
 import MyColleges from "../pages/MyColleges/MyColleges";
 import College from "../pages/College/College";
 import Admission from "../pages/Admissions/Admission";
+import SingleAdmission from "../pages/Admissions/SingleAdmmsion";
  
  
  
@@ -32,6 +33,11 @@ export const router = createBrowserRouter([
       {
         path:"admission",
         element: <Admission />
+      },
+       
+      {
+        path:"/admission/:collegeId",
+        element:<SingleAdmission />
       },
       {
         path:"mycollege",
