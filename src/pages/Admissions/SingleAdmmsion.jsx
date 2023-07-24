@@ -23,16 +23,21 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function SingleAdmission({ uname, onClick }) {
-  const { name, id } = uname;
-
+  const { name, _id } = uname;
+// console.log("songle addmission",_id)
   return (
-    <div className="card w-96 cursor-pointer hover:bg-slate-200 bg-base-100 shadow-sm" onClick={onClick}>
+    <>
+    <Link to={`/admission/${_id}`} className="card-title"> 
+    <div className="card w-96 cursor-pointer hover:bg-slate-200 bg-base-100 shadow-sm"   >
       <div className="card-body">
-        <Link to={`/admission/${id}`} className="card-title">
+        
           {name}
-        </Link>
+        
+      
       </div>
     </div>
+    </Link>
+    </>
   );
 }
 

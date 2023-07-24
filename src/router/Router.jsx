@@ -11,6 +11,7 @@ import MyColleges from "../pages/MyColleges/MyColleges";
 import College from "../pages/College/College";
 import Admission from "../pages/Admissions/Admission";
 import SingleAdmission from "../pages/Admissions/SingleAdmmsion";
+import AdmissionField from "../pages/Admissions/AdmissionField";
  
  
  
@@ -35,9 +36,12 @@ export const router = createBrowserRouter([
         element: <Admission />
       },
        
+       
       {
-        path:"/admission/:collegeId",
-        element:<SingleAdmission />
+        path:"admission/:id",
+        element:  <AdmissionField />,
+        loader:({params})=>fetch(`http://localhost:1000/admission/${params.id}`)
+
       },
       {
         path:"mycollege",
